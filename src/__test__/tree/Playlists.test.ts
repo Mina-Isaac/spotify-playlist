@@ -1,6 +1,5 @@
 import Playlists from "../../tree/Playlists";
-import { getSnapshot, onSnapshot, onPatch } from "mobx-state-tree";
-import { reaction } from "mobx";
+import { getSnapshot } from "mobx-state-tree";
 
 it("should create a model instance", () => {
   const item = Playlists.create({

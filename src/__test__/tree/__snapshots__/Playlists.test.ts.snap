@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should create a model instance 1`] = `
+Object {
+  "items": Array [
+    Object {
+      "description": "some text",
+      "id": "some id",
+      "images": Array [
+        Object {
+          "height": 44,
+          "url": "some url",
+          "width": null,
+        },
+      ],
+      "name": "some name",
+      "owner": Object {
+        "display_name": "some name",
+      },
+    },
+  ],
+  "loading": false,
+  "next": "some url",
+  "total": 13,
+}
+`;

@@ -1,0 +1,46 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`reset model 1`] = `
+Array [
+  Object {
+    "op": "remove",
+    "path": "/items/0",
+  },
+  Object {
+    "op": "replace",
+    "path": "/loading",
+    "value": true,
+  },
+  Object {
+    "op": "replace",
+    "path": "/next",
+    "value": "",
+  },
+  Object {
+    "op": "replace",
+    "path": "/total",
+    "value": 0,
+  },
+]
+`;
+
+exports[`should create a model instance 1`] = `
+Object {
+  "items": Array [
+    Object {
+      "track": Object {
+        "artists": Array [
+          Object {
+            "id": "some id",
+            "name": "some name",
+            "type": "some type",
+          },
+        ],
+      },
+    },
+  ],
+  "loading": false,
+  "next": "some url",
+  "total": 24,
+}
+`;

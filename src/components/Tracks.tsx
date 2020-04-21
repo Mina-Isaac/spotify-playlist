@@ -14,8 +14,8 @@ const Tracks = () => {
   const loading = root.Tracks.loading;
 
   useEffect(() => {
-    root.Tracks.clearTracks();
     root.Tracks.fetchNext(id);
+    return () => root.Tracks.clearTracks();
   }, []);
 
   function moreData() {
